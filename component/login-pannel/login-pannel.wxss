@@ -1,0 +1,78 @@
+.login-pannel {
+  height: 100%;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(256,256,256,.9);
+}
+.login-pannel .close-btn {
+  width: 56rpx;
+  height: 56rpx;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABUCAYAAAAcaxDBAAAAAXNSR0IArs4c6QAAAxRJREFUeAHt3EFuEzEUBmB7GsIWse+KFSsuwCJH6BFSCamwaGmkQpfQJd0ElQWwKpwAcYMicQE4AVwAsaMhrYxfUCajUSIysd97v9EbKfGMZ+KxvzjjxXuKc7aZgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmACviUfr149fZ5bOBZCO7l8cHeKKUtpM/Gce14Fx7H18mT/UcXXfpWdbm4fa0PbkB13rvD07M35+3zJR6fnr0exknyIY5qEEIVy25bEmjw7lt9O++HpaMSpvNVc2J8qce35k4SaP+qfxhcWNy0YNQ2Jo3rxnV/Z03H+rKkZyi1Mh6f3/rdm1x45+/VrYbw7unBw936GHxnGWb/6uZgNNr92bXryaB0w5JRc2KSRRbQUlFzY2YFLQ2VAzM7aCmoXJgsoOionJhsoKio3JisoGioEpjsoCioUpgioNqokphioFqo0piioNKoGpjioFKoWpgqoNyomphqoFyo2piqoLlRETDVQXOhomBCgKaiImHCgG6KioYJBdoVFRETDnRdVFRMSNB/oSJjwoKuQvUhfA7e36fztFGod9Po5N8W8r9nC9Ll79rKaOosVQURkwygQamDFKKe9i6/Oldt0/FsC+5HTEK4s0ncfN4EV5mUOcLVqWa7063LmL1RbccZuaj27vZ0azJeVODsQYM2F6CYmRLVwq+aDjTtBxa0iUmI9MysJr27VCKjQoIuw6TV/OjowXcqkVHhFqVVmM0FCDmXCgp0Hcz5zx0VFQa0CyYyKgToJpioqOqgKZiIqKqgOTDRUNVAc2IioaqAcmCioIqDcmIioIqCSmBqo4qBSmJqooqAamBqobKDamJqoLKCImBKo7KBImFKorKAImJKoWYHRcaUQM0KWgImN2o20JIwOVGzgJaIyYWaHKRrY8bw5Ce09Jg53rKSYlU5A39JM7SNGVMR3h/v7w2XdRy9LleMKm2GNv7wpGRM+rJXzdSuEyEJlBBnNwzhY6kzswk2R6XHFtXH8Z00z9u+CZiACZiACZiACZiACZiACZiACZjA/yfwB4VRqbI2Uhf2AAAAAElFTkSuQmCC");
+  background-size: 56rpx 56rpx;
+  background-repeat: no-repeat;
+  float: right;
+  margin-top: 20rpx;
+  margin-right: 20rpx;
+}
+.login-pannel .form-area {
+  margin: 172rpx 0 95rpx 0;
+  min-height: 290rpx;
+}
+.login-pannel .form-area .login-inline {
+  margin: 0 40rpx;
+  height: 138rpx;
+  position: relative;
+  border-bottom: 2rpx solid #bec2c4;
+  margin-bottom: 2rpx;
+}
+.login-pannel .form-area .verify-btn {
+  position: absolute;
+  bottom: 25rpx;
+  right: 0;
+  font-size: 30rpx;
+  padding-left: 40rpx;
+  border-left: 2rpx solid #bec2c4;
+  max-width: 178rpx;
+  min-width: 178rpx;
+  height: 1.4rem;
+  line-height: 1.4rem;
+  color: #475966;
+  text-align: center;
+  z-index: 1000;
+}
+.login-pannel .form-area input {
+  position: absolute;
+  width: 100%;
+  bottom: 25rpx;
+  left: 0;
+  font-size: 30rpx;
+  min-height: 1.4rem;
+  height: 1.4rem;
+  line-height: 1.4rem;
+  color: #475966;
+}
+.login-pannel .phone.focus,
+.login-pannel .vcode.focus {
+  border-bottom: 4rpx solid #ffc600;
+  margin-bottom: 0;
+}
+.login-pannel .input-placeholder {
+  color: #475966;
+}
+.login-pannel .login-btn {
+  display: block;
+  height: 90rpx;
+  line-height: 88rpx;
+  margin: 0 40rpx;
+  border: 1rpx solid;
+  border-radius: 50rpx;
+  box-sizing: border-box;
+  text-align: center;
+  font-weight: bold;
+  color: #475966;
+  margin-bottom: 320rpx;
+}

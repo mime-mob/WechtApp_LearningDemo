@@ -1,0 +1,13 @@
+<import src="../../component/login-pannel/login-pannel.wxml"/>
+<template is="loginPannel" data="{{ ...__lgpanel__ }}"/>
+
+<!--index.wxml-->
+<view class="container">
+  <view bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  <view bindtap="openLoginPannel" class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view>

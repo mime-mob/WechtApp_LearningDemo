@@ -1,0 +1,24 @@
+<view class="merchant-detail">
+  <view class="merchant-img" style="background-image:url('{{ merchantImg }}');"></view>
+  <view class="logoarea">
+    <view class="logo" style="background-image:url('{{ merchantLogo }}');"></view>
+    <view class="title">{{ merchantTitle }}</view>
+    <view class="lvka" wx:if="{{ isLvka }}"></view>
+  </view>
+  <view class="descarea">{{ merchantDesc }}</view>
+  <view wx:for="{{ storeList }}" wx:key="storeName" class="storelist">
+    <view class="store">
+      <view class="title">{{ item.storeName || "" }}</view>
+      <view class="list-item">
+        <icon class="icon addr-icon"></icon>
+        <text class="text addr-text">{{ item.address || "" }}</text>
+      </view>
+      <view class="list-item phone-area-{{ index }}">
+        <icon class="icon phone-icon"></icon>
+        <text data-phone="{{item.phone || ''}}" catchtap="_makePhoneCall" class="text phone-text">{{
+          item.phone || "" 
+        }}</text>
+      </view>
+    </view>
+  </view>
+</view>

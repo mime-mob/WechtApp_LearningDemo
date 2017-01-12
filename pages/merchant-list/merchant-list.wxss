@@ -1,0 +1,16 @@
+/**index.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 30rpx;
+  box-sizing: border-box;
+}
+.list-item {
+  display: inline-block;
+  padding: 20rpx;
+}
+.open-pannel {
+  margin: 100rpx auto 0;
+}

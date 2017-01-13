@@ -22,6 +22,6 @@
 
 ## 2.开发自定义组件
 
-可以参考这篇：[写一个微信小程序自定义公共组件](https://rushb.cn/201612/ciwulzrjx00002hw1v6uzk68d/)
-组件化开发小程序可以参考：[小程序组件化开发框架](https://github.com/wepyjs/wepy)
+开发自定义组件可以参考这篇：[写一个微信小程序自定义公共组件](https://rushb.cn/201612/ciwulzrjx00002hw1v6uzk68d/)
 
+组件化开发小程序可以参考：[小程序组件化开发框架](https://github.com/wepyjs/wepy)
